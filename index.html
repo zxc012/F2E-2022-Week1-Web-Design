@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>THE F2E 4th 互動式網頁設計</title>
+    <!-- <link rel="stylesheet" href="https://unpkg.com/primeflex@3.1.2/primeflex.css"> -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <!-- Navbar -->
+    <div class="fixed md:static z-10 bg-white mx-auto w-full py-2.5">
+        <div class="container mx-auto">
+            <nav class="flex justify-between items-center max-h-24 px-5">
+                <div class="min-w-0">
+                    <img class="max-w-full h-auto max-h-24 hidden lg:block" src="./images/Nav-Logo.png"
+                        alt="THE F2E 4th 互動式網頁設計 LOGO">
+                    <button type="button">
+                        <img class="lg:hidden block" src="./images/Menu.svg" alt="選單">
+                    </button>
+                </div>
+                <ul class="flex">
+                    <li
+                        class="flex-1 w-28 hidden lg:flex md:justify-center md:items-center mr-5 py-5 text-xl whitespace-nowrap hover:text-slate-400">
+                        <a href="#">關卡資訊</a>
+                    </li>
+                    <li
+                        class="flex-1 w-28 hidden lg:flex md:justify-center md:items-center  mx-5 py-5 text-xl whitespace-nowrap hover:text-slate-400">
+                        <a href="#">作品列表</a>
+                    </li>
+                    <li
+                        class="flex-1 w-28 hidden lg:flex md:justify-center md:items-center  mx-5 py-5 text-xl whitespace-nowrap hover:text-slate-400">
+                        <a href="#">攻略資源</a>
+                    </li>
+                    <li
+                        class="flex-1 w-28 hidden lg:flex md:justify-center md:items-center mx-5 py-5 text-xl whitespace-nowrap hover:text-slate-400">
+                        <a href="#">求職專區</a>
+                    </li>
+                    <li
+                        class="flex-1 w-28 hidden lg:flex md:justify-center md:items-center mx-5 py-5 text-xl whitespace-nowrap hover:text-slate-400">
+                        <a href="#">登入</a>
+                    </li>
+                    <li
+                        class="flex-1 w-28 flex justify-center items-center ml-5 lg:py-5 h-10 lg:h-auto text-xl whitespace-nowrap border-2 lg:border-4 border-black shadow-[2px_2px_0px_2px_#000000] lg:shadow-[8px_8px_0px_2px_#000000] hover:bg-[#FED641] duration-200">
+                        <a href="/">立即報名</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+
+    <!-- Block 1 -->
+    <div class="container mx-auto mb-20 relative top-20 md:static">
+        <div
+            class="relative flex flex-col md:grid md:grid-cols-[repeat(48,1fr)] md:grid-rows-[repeat(16,1fr)] px-5 gap-3">
+            <div
+                class="self-start md:self-auto max-w-[70%] md:max-w-full md:row-start-1 md:col-start-2 md:row-[span_8_/_span_8] md:col-[span_24_/_span_24]">
+                <img class="h-auto max-w-full" src="./images/Block1-Blue.png" alt="藍色區塊顯示文字六角學院">
+            </div>
+            <div
+                class="self-end md:self-auto justify-self-end max-w-[70%] md:max-w-full md:row-start-1 md:col-start-[24] md:row-[span_8_/_span_8] md:col-[span_24_/_span_24]">
+                <img class="h-auto max-w-full" src="./images/Block1-Yellow.png" alt="黃色區塊顯示文字UI DESIGN">
+            </div>
+            <div
+                class="self-start md:self-auto max-w-[70%] md:max-w-full md:row-start-[10] md:col-start-2 md:row-[span_8_/_span_8] md:col-[span_24_/_span_24]">
+                <img class="h-auto w-full" src="./images/Block1-Red.png" alt="紅色區塊顯示文字FRONT END">
+            </div>
+            <div
+                class="self-end md:self-auto max-w-[70%] md:max-w-full md:row-start-[8] md:col-start-[24] md:row-[span_8_/_span_8] md:col-[span_24_/_span_24]">
+                <img class="h-auto w-full" src="./images/Block1-Green.png" alt="綠色區塊顯示JS、CSS、HTML的ICON">
+            </div>
+
+            <div
+                class="max-w-[50%] mx-auto md:mx-0 md:max-w-none md: md:absolute md:row-start-[5] md:col-start-[16] md:row-[span_4_/_span_4] md:col-[span_16_/_span_16]">
+                <img class="main h-auto max-w-full" src="./images/Block1-Logo.png" alt="">
+            </div>
+        </div>
+    </div>
+
+    <!-- Block 2 -->
+    <div class="container mx-auto h-[70vh] md:h-screen">
+        <div class="relative">
+            <div class="inline-block absolute top-16 left-[10%] md:left-[20%] lg:top-16 lg:left-[20%]">
+                <span class="lg:text-xl">你是否也有以下困擾？</span>
+            </div>
+            <div
+                class="inline-block absolute p-14 top-[100px] right-[0%] md:right-[auto] md:p-16 md:top-[125px] md:left-[20%] lg:p-28 lg:top-[150px] lg:left-[20%] bg-[url('./images/Block2-Chatbox1.png')] bg-contain bg-no-repeat bg-[center_70%] md:bg-[center_60%]">
+                <span class="lg:text-xl">羨慕別人的酷酷網頁動畫</span>
+            </div>
+            <div
+                class="inline-block absolute p-14 top-[200px] md:p-16 md:top-[250px] md:left-[45%] lg:p-28 lg:top-[300px] lg:left-[50%] bg-[url('./images/Block2-Chatbox2.png')] bg-contain bg-no-repeat bg-center">
+                <span class="lg:text-xl">滿足不了同事的許願</span>
+            </div>
+            <div
+                class="inline-block absolute p-14 top-[300px] right-[0%] md:right-[auto] md:p-16 md:top-[375px] md:left-[15%] lg:p-28 lg:top-[450px] lg:left-[20%] bg-[url('./images/Block2-Chatbox3.png')] bg-contain bg-no-repeat bg-[center_65%] md:bg-[center_58%]">
+                <span class="lg:text-xl">動畫技能樹太雜無從下手</span>
+            </div>
+        </div>
+    </div>
+
+    <div
+        class="w-full h-40 md:h-[40rem] bg-[url('./images/Background.png')] md:bg-[url('./images/Background-1920px.svg')] bg-cover bg-no-repeat">
+    </div>
+
+    <div class="flex justify-between items-start mb-40">
+        <img class="w-[52%] mr-[-2%]" src="./images/Block3-Red.png" alt="">
+        <img class="w-[30%] mx-[-15%] translate-y-[-25%] z-10" src="./images/Block3-Magenta.png" alt="">
+        <img class="w-[52%] ml-[-2%]" src="./images/Block3-Yellow.png" alt="">
+    </div>
+
+    <div>
+        <img src="./images/Block3-Black.png" alt="">
+    </div>
+
+
+    <div
+        class="mt-[-10%] w-full h-40 md:h-[40rem] bg-[url('./images/Background.png')] md:bg-[url('./images/Background-1920px.svg')] bg-cover bg-no-repeat">
+    </div>
+
+    <!-- Block 4 -->
+    <div class="container mx-auto h-[150vh]">
+        <div class="relative">
+            <div class="absolute w-[40%] top-[150px] right-10 sm:top-[100px] sm:right-0 lg:top-[150px] lg:right-0">
+                <img src="./images/Block4-Blue.png" alt="">
+            </div>
+            <div
+                class="absolute w-[35%] top-[520px] left-[-5%] sm:top-[300px] sm:left-[8%] lg:top-[550px] lg:left-[8%]">
+                <img src="./images/Block4-Red.png" alt="">
+            </div>
+            <div
+                class="absolute w-[35%] top-[920px] right-[6%] sm:top-[600px] sm:right-[6%] lg:top-[950px] lg:right-[6%]">
+                <img src="./images/Block4-Magenta.png" alt="">
+            </div>
+            <div
+                class="inline-block absolute p-20 w-[80%] sm:w-auto top-0 left-10 sm:left-[auto] sm:right-0 md:right-[auto] md:p-24 md:top-0 md:left-[10%] lg:p-28 lg:top-0 lg:left-[5%] bg-[url('./images/Block4-Chatbox1.png')] bg-contain bg-no-repeat bg-center md:bg-[center_55%]">
+                <div>
+                    <h3 class="md:text-xl lg:text-[32px] text-[#0D89C0] mb-3 lg:mb-5">Week 1：The F2E 活動網站設計</h3>
+                    <p
+                        class="w-fit bg-[#0D89C0] text-white text-sm md:text-lg lg:text-2xl rounded-[30px] p-[5px_10px] mb-3 lg:mb-5">
+                        #視差滾動
+                    </p>
+                    <p class="text-sm md:text-lg lg:text-2xl">贊助商：板塊設計</p>
+                </div>
+            </div>
+            <div
+                class="inline-block absolute p-20 w-[80%] sm:w-auto top-[400px] left-10 sm:left-[auto] sm:top-[300px] md:p-24 md:top-[250px] md:right-0 lg:p-28 lg:top-[400px] lg:right-[10%] bg-[url('./images/Block4-Chatbox2.png')] bg-contain bg-no-repeat bg-center md:bg-[center_35%]">
+                <div>
+                    <h3 class="md:text-xl lg:text-[32px] text-[#EA4D38] mb-3 lg:mb-5">Week 2：今晚，我想來點點簽</h3>
+                    <p
+                        class="w-fit bg-[#EA4D38] text-white text-sm md:text-lg lg:text-2xl rounded-[30px] p-[5px_10px] mb-3 lg:mb-5">
+                        #Canvas
+                </div>
+                <p class="text-sm md:text-lg lg:text-2xl">贊助商：凱鈿行動科技</p>
+                </span>
+            </div>
+            <div
+                class="inline-block absolute p-24 w-[80%] sm:w-auto top-[750px] sm:top-[500px] left-20 sm:left-[auto] sm:right-[0%] md:right-[auto] md:p-24 md:top-[450px] md:left-[12%] lg:p-36 lg:top-[800px] lg:left-[10%] bg-[url('./images/Block4-Chatbox3.png')] bg-contain bg-no-repeat bg-center sm:bg-[center_55%] md:bg-center">
+                <div>
+                    <h3 class="md:text-xl lg:text-[32px] text-[#D93476] mb-3 lg:mb-5">Week 3：Scrum 新手村</h3>
+                    <p
+                        class="w-fit bg-[#D93476] text-white text-sm md:text-lg lg:text-2xl rounded-[30px] p-[5px_10px] mb-3 lg:mb-5">
+                        #JS
+                        draggable</p>
+                    <p class="text-sm md:text-lg lg:text-2xl">贊助商：鈦坦科技</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div
+        class="mt-[-10%] w-full h-40 md:h-[40rem] bg-[url('./images/Background.png')] md:bg-[url('./images/Background-1920px.svg')] bg-cover bg-no-repeat">
+    </div>
+
+
+    <!-- Block 5 -->
+    <div class="container mx-auto">
+        <div class="flex flex-col md:flex-row md:justify-around mb-[50px] md:mb-20">
+            <div class="flex flex-col items-center mb-[30px] md:mb-0">
+                <span class="p-2.5 mb-4 text-base md:text-[32px] bg-[#FED641]">報名時間</span>
+                <p class="text-center text-sm md:text-2xl">10/13~10/30<br>截止前可修改報名組別</p>
+            </div>
+            <div class="flex flex-col items-center mb-[30px] md:mb-0">
+                <span class="p-2.5 mb-4 text-base md:text-[32px] bg-[#FED641]">開賽時間</span>
+                <p class="text-center text-sm md:text-2xl">10/31(一) UI、團體組開賽<br>11/7(一) 前端組開賽</p>
+            </div>
+            <div class="flex flex-col items-center md:mb-0">
+                <span class="p-2.5 mb-4 text-base md:text-[32px] bg-[#FED641]">登錄作品</span>
+                <p class="text-center text-sm md:text-2xl">10/31~11/28<br>依賽程登錄作品</p>
+            </div>
+        </div>
+
+        <div class="flex justify-center md:hidden mb-[50px]">
+            <p class="text-sm max-w-[215px]">活動採用UI、前端接力合作形式，前端工程師可採用 UI設計師的設計稿，一同產出完整作品。</p>
+        </div>
+
+        <div class="flex md:block max-h-[310px] mb-[54px] md:mb-0 justify-center">
+            <img class="blcok md:hidden md:mb-[100px] mr-[-25px] md:ml-0 object-contain"
+                src="./images/Block5-Timeline-90.png" alt="">
+            <div class="flex flex-col md:flex-row justify-between">
+                <div class="flex flex-row items-center self-center">
+                    <img class="w-full h-auto max-h-[40px] md:max-h-[80px]" src="./images/Block5-Flag.png" alt="">
+                    <p class="text-xl">Start!</p>
+                </div>
+                <div class="flex flex-col items-center">
+                    <span class="p-[5px_10px] mb-[5px] bg-[#EA4D38] text-white">每週一</span>
+                    <p>獲得新主題</p>
+                </div>
+                <div class="flex flex-col items-center">
+                    <span class="p-[5px_10px] mb-[5px] bg-[#EA4D38] text-white">隔週一</span>
+                    <p>UI組登錄作品，前端組領取設計稿</p>
+                </div>
+                <div class="flex flex-col items-center">
+                    <span class="p-[5px_10px] mb-[5px] bg-[#EA4D38] text-white">再隔週一</span>
+                    <p>前端組登錄作品</p>
+                </div>
+            </div>
+        </div>
+
+        <img class="hidden md:block md:mb-[100px]" src="./images/Block5-Timeline.png" alt="">
+
+        <p class="hidden md:flex mb-[168px] justify-center text-2xl text-center">活動採用 UI、前端接力合作形式，前端工程師可採用 UI
+            設計師的設計稿，一同產出完整作品。</p>
+    </div>
+
+    <div class="mb-[100px]">
+        <img src="./images/Block5-Black.png" alt="">
+    </div>
+
+    <div class="container mx-auto">
+        <div class="flex flex-col lg:flex-row lg:justify-between lg:items-start mb-40 px-10 lg:p-0">
+            <div class="flex relative w-full lg:w-[52%] lg:ml-[-2%] mb-5 lg:mb-0">
+                <img src="./images/Block5-Green.png" alt="">
+                <ul class="absolute list-disc w-[70%] md:w-[65%] xl:w-[60%] top-[28%] left-[10%]">
+                    <li class="text-white text-sm md:text-lg lg:text-xl xl:text-2xl text-justify">初選：將由六角學院前端、UI
+                        評審進行第一波篩選。</li>
+                    <br><br>
+                    <li class="text-white text-sm md:text-lg lg:text-xl xl:text-2xl text-justify">
+                        決選：由六角學院與贊助廠商討論，進行最後篩選，並於
+                        12/30(五) 由評審進行直播公布名單！</li>
+                </ul>
+            </div>
+            <div class="flex relative w-full lg:w-[52%] lg:ml-[-2%] mb-5 lg:mb-0 lg:top-16">
+                <img src="./images/Block5-Blue.png" alt="">
+                <ul class="absolute list-disc w-[70%] md:w-[65%] xl:w-[60%] top-[20%] xl:top-[24%] right-[10%]">
+                    <li class="text-white text-sm md:text-lg lg:text-xl xl:text-2xl text-justify">初選佳作 共六十位  數位獎狀</li>
+                    <br><br>
+                    <li class="text-white text-sm md:text-lg lg:text-xl xl:text-2xl text-justify">個人企業獎 共六位 NTD 3,000/位
+                    </li>
+                    <br><br>
+                    <li class="text-white text-sm md:text-lg lg:text-xl xl:text-2xl text-justify">團體企業獎 共三組 NTD
+                        10,000/組
+                    </li>
+                    <br><br>
+                    <p class="text-white text-sm md:text-lg lg:text-xl xl:text-2xl text-justify">以上皆提供完賽數位獎狀</p>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div
+        class="mb-20 w-full h-40 md:h-[40rem] bg-[url('./images/Background.png')] md:bg-[url('./images/Background-1920px.svg')] bg-cover bg-no-repeat">
+    </div>
+
+    <div class="container mx-auto mb-20">
+        <div class="flex justify-center items-center mb-20">
+            <a class="text-center w-full max-w-[80%] py-5 text-2xl md:leading-normal md:text-[64px] border-4 border-black shadow-[8px_8px_0px_2px_#000000] hover:bg-[#FED641] duration-200"
+                href="#">立即報名</a>
+        </div>
+
+        <div class="flex justify-center items-center md:text-3xl mb-5">鑽石級贊助商</div>
+        <div class="flex justify-center items-center md:text-3xl mb-8">SPONSORS</div>
+
+        <div class="flex flex-col md:flex-row justify-center items-center">
+            <div class="p-2 my-3 md:my-0 md:mx-10 border-4 border-black shadow-[8px_8px_0px_2px_#000000]">
+                <img src="./images/Sponsor1.png" alt="">
+            </div>
+            <div class="p-2 my-3 md:my-0 md:mx-10 border-4 border-black shadow-[8px_8px_0px_2px_#000000]">
+                <img src="./images/Sponsor2.png" alt="">
+            </div>
+            <div class="p-2 my-3 md:my-0 md:mx-10 border-4 border-black shadow-[8px_8px_0px_2px_#000000]">
+                <img src="./images/Sponsor3.png" alt="">
+            </div>
+        </div>
+    </div>
+
+    <div
+        class="w-full h-40 md:h-[40rem] bg-[url('./images/Background.png')] md:bg-[url('./images/Background-1920px.svg')] bg-cover bg-no-repeat">
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/ScrollTrigger.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/TextPlugin.min.js"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="./main.js"></script>
+</body>
+
+</html>

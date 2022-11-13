@@ -1,0 +1,34 @@
+/* @font-face {
+    font-family: "jf-openhuninn-1.1";
+    src: url("./fonts/jf-openhuninn-1.1/jf-openhuninn-1.1.ttf") format("opentype");
+} */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Lato:wght@100&display=swap');
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+}
+
+/* 隱藏滾動條 */
+html {
+    overflow: -moz-hidden-unscrollable;
+    height: 100%;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+body {
+    -ms-overflow-style: none;
+
+    overflow: auto;
+    overflow-x: hidden;
+}
