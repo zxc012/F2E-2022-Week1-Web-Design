@@ -57,24 +57,24 @@
     <div class="container mx-auto mb-20 relative top-20 md:static">
         <div
             class="relative flex flex-col md:grid md:grid-cols-[repeat(48,1fr)] md:grid-rows-[repeat(16,1fr)] px-5 gap-3">
-            <div
+            <div id="block1-blue"
                 class="self-start md:self-auto max-w-[70%] md:max-w-full md:row-start-1 md:col-start-2 md:row-[span_8_/_span_8] md:col-[span_24_/_span_24]">
                 <img class="h-auto max-w-full" src="./images/Block1-Blue.png" alt="藍色區塊顯示文字六角學院">
             </div>
-            <div
+            <div id="block1-yellow"
                 class="self-end md:self-auto justify-self-end max-w-[70%] md:max-w-full md:row-start-1 md:col-start-[24] md:row-[span_8_/_span_8] md:col-[span_24_/_span_24]">
                 <img class="h-auto max-w-full" src="./images/Block1-Yellow.png" alt="黃色區塊顯示文字UI DESIGN">
             </div>
-            <div
+            <div id="block1-red"
                 class="self-start md:self-auto max-w-[70%] md:max-w-full md:row-start-[10] md:col-start-2 md:row-[span_8_/_span_8] md:col-[span_24_/_span_24]">
                 <img class="h-auto w-full" src="./images/Block1-Red.png" alt="紅色區塊顯示文字FRONT END">
             </div>
-            <div
+            <div id="block1-green"
                 class="self-end md:self-auto max-w-[70%] md:max-w-full md:row-start-[8] md:col-start-[24] md:row-[span_8_/_span_8] md:col-[span_24_/_span_24]">
                 <img class="h-auto w-full" src="./images/Block1-Green.png" alt="綠色區塊顯示JS、CSS、HTML的ICON">
             </div>
 
-            <div
+            <div id="block1-logo"
                 class="max-w-[50%] mx-auto md:mx-0 md:max-w-none md: md:absolute md:row-start-[5] md:col-start-[16] md:row-[span_4_/_span_4] md:col-[span_16_/_span_16]">
                 <img class="main h-auto max-w-full" src="./images/Block1-Logo.png" alt="">
             </div>
@@ -82,21 +82,22 @@
     </div>
 
     <!-- Block 2 -->
-    <div class="container mx-auto h-[70vh] md:h-screen">
+    <div id="block2" class="container mx-auto h-[70vh] md:h-screen">
         <div class="relative">
-            <div class="inline-block absolute top-16 left-[10%] md:left-[20%] lg:top-16 lg:left-[20%]">
+            <div id="block2-text1"
+                class="animation-wrapper block2 inline-block absolute top-16 left-[10%] md:left-[20%] lg:top-16 lg:left-[20%]">
                 <span class="lg:text-xl">你是否也有以下困擾？</span>
             </div>
-            <div
-                class="inline-block absolute p-14 top-[100px] right-[0%] md:right-[auto] md:p-16 md:top-[125px] md:left-[20%] lg:p-28 lg:top-[150px] lg:left-[20%] bg-[url('./images/Block2-Chatbox1.png')] bg-contain bg-no-repeat bg-[center_70%] md:bg-[center_60%]">
+            <div id="block2-text2"
+                class="animation-wrapper block2 inline-block absolute p-14 top-[100px] right-[0%] md:right-[auto] md:p-16 md:top-[125px] md:left-[20%] lg:p-28 lg:top-[150px] lg:left-[20%] bg-[url('./images/Block2-Chatbox1.png')] bg-contain bg-no-repeat bg-[center_70%] md:bg-[center_60%]">
                 <span class="lg:text-xl">羨慕別人的酷酷網頁動畫</span>
             </div>
-            <div
-                class="inline-block absolute p-14 top-[200px] md:p-16 md:top-[250px] md:left-[45%] lg:p-28 lg:top-[300px] lg:left-[50%] bg-[url('./images/Block2-Chatbox2.png')] bg-contain bg-no-repeat bg-center">
+            <div id="block2-text3"
+                class="animation-wrapper block2 inline-block absolute p-14 top-[200px] md:p-16 md:top-[250px] md:left-[45%] lg:p-28 lg:top-[300px] lg:left-[50%] bg-[url('./images/Block2-Chatbox2.png')] bg-contain bg-no-repeat bg-center">
                 <span class="lg:text-xl">滿足不了同事的許願</span>
             </div>
-            <div
-                class="inline-block absolute p-14 top-[300px] right-[0%] md:right-[auto] md:p-16 md:top-[375px] md:left-[15%] lg:p-28 lg:top-[450px] lg:left-[20%] bg-[url('./images/Block2-Chatbox3.png')] bg-contain bg-no-repeat bg-[center_65%] md:bg-[center_58%]">
+            <div id="block2-text4"
+                class="animation-wrapper block2 inline-block absolute p-14 top-[300px] right-[0%] md:right-[auto] md:p-16 md:top-[375px] md:left-[15%] lg:p-28 lg:top-[450px] lg:left-[20%] bg-[url('./images/Block2-Chatbox3.png')] bg-contain bg-no-repeat bg-[center_65%] md:bg-[center_58%]">
                 <span class="lg:text-xl">動畫技能樹太雜無從下手</span>
             </div>
         </div>
@@ -106,13 +107,15 @@
         class="w-full h-40 md:h-[40rem] bg-[url('./images/Background.png')] md:bg-[url('./images/Background-1920px.svg')] bg-cover bg-no-repeat">
     </div>
 
-    <div class="flex justify-between items-start mb-40">
-        <img class="w-[52%] mr-[-2%]" src="./images/Block3-Red.png" alt="">
-        <img class="w-[30%] mx-[-15%] translate-y-[-25%] z-10" src="./images/Block3-Magenta.png" alt="">
-        <img class="w-[52%] ml-[-2%]" src="./images/Block3-Yellow.png" alt="">
+    <!-- Block 3 -->
+    <div id="block3" class="flex justify-between items-start mb-40">
+        <img id="block3-red" class="w-[52%] mr-[-2%]" src="./images/Block3-Red.png" alt="">
+        <img id="block3-magenta" class="w-[30%] mx-[-15%] translate-y-[-25%] z-10" src="./images/Block3-Magenta.png"
+            alt="">
+        <img id="block3-yellow" class="w-[52%] ml-[-2%]" src="./images/Block3-Yellow.png" alt="">
     </div>
 
-    <div>
+    <div id="block3-black">
         <img src="./images/Block3-Black.png" alt="">
     </div>
 
@@ -122,21 +125,22 @@
     </div>
 
     <!-- Block 4 -->
-    <div class="container mx-auto h-[150vh]">
+    <div id="block4" class="container mx-auto h-[150vh]">
         <div class="relative">
-            <div class="absolute w-[40%] top-[150px] right-10 sm:top-[100px] sm:right-0 lg:top-[150px] lg:right-0">
+            <div id="block4-blue"
+                class="absolute w-[40%] top-[150px] right-10 sm:top-[100px] sm:right-0 lg:top-[150px] lg:right-0">
                 <img src="./images/Block4-Blue.png" alt="">
             </div>
-            <div
+            <div id="block4-red"
                 class="absolute w-[35%] top-[520px] left-[-5%] sm:top-[300px] sm:left-[8%] lg:top-[550px] lg:left-[8%]">
                 <img src="./images/Block4-Red.png" alt="">
             </div>
-            <div
+            <div id="block4-magenta"
                 class="absolute w-[35%] top-[920px] right-[6%] sm:top-[600px] sm:right-[6%] lg:top-[950px] lg:right-[6%]">
                 <img src="./images/Block4-Magenta.png" alt="">
             </div>
             <div
-                class="inline-block absolute p-20 w-[80%] sm:w-auto top-0 left-10 sm:left-[auto] sm:right-0 md:right-[auto] md:p-24 md:top-0 md:left-[10%] lg:p-28 lg:top-0 lg:left-[5%] bg-[url('./images/Block4-Chatbox1.png')] bg-contain bg-no-repeat bg-center md:bg-[center_55%]">
+                class="inline-block absolute p-20 w-[80%] sm:w-auto top-10 left-10 sm:left-[auto] sm:right-0 md:right-[auto] md:p-24 md:top-0 md:left-[10%] lg:p-28 lg:top-0 lg:left-[5%] bg-[url('./images/Block4-Chatbox1.png')] bg-contain bg-no-repeat bg-center md:bg-[center_55%]">
                 <div>
                     <h3 class="md:text-xl lg:text-[32px] text-[#0D89C0] mb-3 lg:mb-5">Week 1：The F2E 活動網站設計</h3>
                     <p
@@ -147,7 +151,7 @@
                 </div>
             </div>
             <div
-                class="inline-block absolute p-20 w-[80%] sm:w-auto top-[400px] left-10 sm:left-[auto] sm:top-[300px] md:p-24 md:top-[250px] md:right-0 lg:p-28 lg:top-[400px] lg:right-[10%] bg-[url('./images/Block4-Chatbox2.png')] bg-contain bg-no-repeat bg-center md:bg-[center_35%]">
+                class="inline-block absolute p-20 w-[80%] sm:w-auto top-[250px] left-10 sm:left-[auto] sm:top-[300px] md:p-24 md:top-[250px] md:right-0 lg:p-28 lg:top-[300px] lg:right-[10%] bg-[url('./images/Block4-Chatbox2.png')] bg-contain bg-no-repeat bg-center md:bg-[center_35%]">
                 <div>
                     <h3 class="md:text-xl lg:text-[32px] text-[#EA4D38] mb-3 lg:mb-5">Week 2：今晚，我想來點點簽</h3>
                     <p
@@ -158,7 +162,7 @@
                 </span>
             </div>
             <div
-                class="inline-block absolute p-24 w-[80%] sm:w-auto top-[750px] sm:top-[500px] left-20 sm:left-[auto] sm:right-[0%] md:right-[auto] md:p-24 md:top-[450px] md:left-[12%] lg:p-36 lg:top-[800px] lg:left-[10%] bg-[url('./images/Block4-Chatbox3.png')] bg-contain bg-no-repeat bg-center sm:bg-[center_55%] md:bg-center">
+                class="inline-block absolute p-24 w-[80%] sm:w-auto top-[450px] sm:top-[500px] left-20 sm:left-[auto] sm:right-[0%] md:right-[auto] md:p-24 md:top-[450px] md:left-[12%] lg:p-36 lg:top-[550px] lg:left-[10%] bg-[url('./images/Block4-Chatbox3.png')] bg-contain bg-no-repeat bg-center sm:bg-[center_55%] md:bg-center">
                 <div>
                     <h3 class="md:text-xl lg:text-[32px] text-[#D93476] mb-3 lg:mb-5">Week 3：Scrum 新手村</h3>
                     <p
