@@ -60,8 +60,7 @@ timeline2.from('#block3-magenta', { y: '-5000px', duration: 0.5, ease: "back.out
 const timeline3 = gsap.timeline({
     scrollTrigger: {
         trigger: "#block4",
-        pin: true, //重要！ pin需設為true
-        markers: true,
+        pin: true,
         scrub: true,
     },
 });
